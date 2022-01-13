@@ -12,9 +12,17 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin=""></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div>
+        <h4 class="title">ISS Real-Time Locator</h4>
+        <div id="issMap"></div>
+        <div>
+            <h4 class="coordinate"> <u>Current Latitude:</u> <span id="lat"></span></h4>
+            <h4 class="coordinate"><u>Current Longitude:</u> <span id="long"></span></h4>
+        </div>
+    </div>
 </body>
 <script type="text/javascript" src="script.js"></script>
 </html>
